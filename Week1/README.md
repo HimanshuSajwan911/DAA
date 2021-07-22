@@ -1,2 +1,2 @@
 ### Week1
-#### Linear Search
+#### Binary Search
