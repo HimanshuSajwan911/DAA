@@ -1,2 +1,2 @@
 ### Week0
-#### Linear Search
+#### Jump Search
