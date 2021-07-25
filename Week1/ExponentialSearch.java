@@ -13,31 +13,20 @@ public class ExponentialSearch {
 			found = true;
 		}
 		else{
-			int pos = 2;
-			int prev = 1;
-			int i;
-			while(!found && prev < pos){
-				i = prev;
-				if(arr[prev] <= k && k <= arr[pos]){
-					for(; i <= pos; i++){
-						comparisons++;
-						if(arr[i] == k){
-							found = true;
-							break;
-						}
-					}
-				}
-				
-				prev = pos;
+			int pos = 1;
+			while(pos < arr.length && arr[pos] <= k){
 				pos = pos * 2;
-				if(pos >= arr.length){
-					pos = arr.length - 1;
-				}
-				if(!found && i < arr.length - 1){
-					comparisons++;
-				}
-				
+				comparisons++;
 			}
+			
+			for(int i = pos / 2; i < arr.length; i++){
+				comparisons++;
+				if(arr[i] == k){
+					found = true;
+					break;
+				}
+			}
+			
 		}
 		
 		if (found) {
@@ -76,20 +65,3 @@ public class ExponentialSearch {
 	}
 	
 }
-
-
-/*
- *exponential
-3
-5
-12 23 36 39 41
-41
-8 
-21 39 40 45 51 54 68 72
-69
-10
-101 246 438 561 796 896 899 4644 7999 8545
-7999
-*/
- 
-
