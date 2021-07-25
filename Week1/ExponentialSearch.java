@@ -36,6 +36,7 @@ public class ExponentialSearch {
 				if(!found && i < arr.length - 1){
 					comparisons++;
 				}
+				
 			}
 		}
 		
