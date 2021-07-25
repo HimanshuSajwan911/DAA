@@ -1,5 +1,5 @@
 ### Week1
-##### Linear Search
-##### Binary Search
-##### Jump Search
-##### Exponential Search
+###### Linear Search
+###### Binary Search
+###### Jump Search
+###### Exponential Search
