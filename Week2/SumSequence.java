@@ -18,7 +18,6 @@ class NoSequenceFoundException extends Exception{
     
 }
 
-
 public class SumSequence {
 
 	public static int[] getSequence(int[] arr) throws NoSequenceFoundException {
