@@ -2,7 +2,6 @@
  * Author: Himanshu Sajwan.
  * Section: E_30.
  * Roll: 2014402.
- * sequence
  */
 
 package Week2;
