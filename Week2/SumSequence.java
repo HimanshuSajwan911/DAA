@@ -14,7 +14,6 @@ class NoSequenceFoundException extends Exception{
     public NoSequenceFoundException(){
     	super("No sequence found.");
     }
-    
 }
 
 public class SumSequence {
