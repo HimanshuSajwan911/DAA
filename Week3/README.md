@@ -1,2 +1,4 @@
-### Week0
-#### Linear Search
+### Week3
+#### Insertion Sort
+#### Selection Sort
+#### Duplicate Elements
