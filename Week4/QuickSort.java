@@ -8,8 +8,6 @@ package Week4;
 
 import java.util.Scanner;
 
-import javafx.util.Pair;
-
 public class QuickSort {
 
 	public static int comparisions, swaps;
