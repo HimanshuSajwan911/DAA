@@ -1,3 +1,9 @@
+/*
+ * Author: 	Himanshu Sajwan.
+ * Section: E_30.
+ * Roll: 	2014402.
+ */
+
 package Week4;
 
 import java.util.Scanner;
